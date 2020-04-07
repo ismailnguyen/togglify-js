@@ -1,4 +1,3 @@
-
 function Togglify (featuresRepository) {
 	this.featuresRepository = featuresRepository || [];
 }
@@ -8,6 +7,5 @@ Togglify.prototype.isOn = function (featureName) {
 			.some(feature => feature.name === featureName
 								&& feature.isEnabled);
 }
-
 
 module.exports = Togglify;

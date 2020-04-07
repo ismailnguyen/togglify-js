@@ -1,0 +1,34 @@
+{
+  "name": "togglify-js",
+  "version": "1.0.0",
+  "description": "Javascript feature toggler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailnguyen/togglify-js.git"
+  },
+  "keywords": [
+    "Feature",
+    "toggle",
+    "Feature",
+    "flag",
+    "Feature",
+    "flip"
+  ],
+  "author": "Ismaïl NGUYEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailnguyen/togglify-js/issues"
+  },
+  "homepage": "https://github.com/ismailnguyen/togglify-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "jest": "^25.2.3"
+  }
+}

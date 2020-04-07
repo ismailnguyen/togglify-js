@@ -4,7 +4,9 @@ function Togglify (featuresRepository) {
 }
 
 Togglify.prototype.isOn = function (featureName) {
-	return this.featuresRepository.find(feature => feature.name === featureName) !== undefined;
+	return this.featuresRepository
+			.some(feature => feature.name === featureName
+								&& feature.isEnabled);
 }
 
 

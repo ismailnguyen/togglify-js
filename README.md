@@ -1,7 +1,7 @@
 # togglify-js
 Javascript feature toggler
 
-## Instal
+## Install
 ```shell
 npm install togglify-js
 ```

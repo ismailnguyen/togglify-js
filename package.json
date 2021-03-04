@@ -1,7 +1,10 @@
 {
   "name": "togglify-js",
-  "version": "1.0.2",
+  "short_description": "Javascript feature toggler",
   "description": "Javascript feature toggler",
+  "version": "1.0.3",
+  "license": "Under WTFPL licence",
+  "license_url": "http://www.wtfpl.net",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll"

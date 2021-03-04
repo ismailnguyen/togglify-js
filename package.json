@@ -3,6 +3,8 @@
   "short_description": "Javascript feature toggler",
   "description": "Javascript feature toggler",
   "version": "1.0.3",
+  "author": "Ismaïl NGUYEN <nguyen.ismail@gmail.com>",
+  "repository": "https://github.com/ismailnguyen/togglify-js.git",
   "license": "Under WTFPL licence",
   "license_url": "http://www.wtfpl.net",
   "main": "index.js",
